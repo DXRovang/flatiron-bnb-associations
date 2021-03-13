@@ -4,7 +4,7 @@ describe User do
   let(:katie) { User.create(name: "Katie") }
 
   it 'has a name' do
-    expect(katie.name).to eq("Katie")
+    expect(katie.name).to eq("Katie") 
   end
 
   context "guest and host" do
